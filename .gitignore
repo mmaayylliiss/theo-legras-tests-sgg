@@ -1,1 +1,14 @@
 .DS_Store
+_distutils/
+_distutils_hack/
+bin/
+build/
+dist/
+distlib/
+distributions/
+Markdown-3.3.4.dist-info/
+pip-21.2.4.dist-info/
+setuptools-57.0.0.dist-info/
+site/
+static/
+website/
