@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{{.Meta.Title}}</title>
+        <meta name="author" content="{{.Meta.Author}}" />
+        <meta name="description" content="{{.Meta.Description}}" />
+        <link rel="stylesheet" type="text/css" href="/assets/style.css" />
+    </head>
+    <body>
+        <main>
+            <header>
+                <img  class="header-image" src="/static/images/logo.jpg" alt="Théo">
+            </header>
+
+            <section>
+                <h1>Index</h1>
+                <ul>
+                    {{range $page := .Pages}}
+                        <li>
+                            <small><small><code>{{$page.Route}}</code></small></small>
+                            <a href="{{$page.Href}}">
+                                {{$page.Title}}
+                                <!-- <p>{{$page.Description}}</p> -->
+                            </a>
+                        </li>
+                    {{end}}
+                </ul>
+            </section>
+        </main>
+    </body>
+</html>

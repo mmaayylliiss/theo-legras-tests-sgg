@@ -1,0 +1,21 @@
+* {
+    font-family: Arial, Tahoma, sans-serif;
+    color: #32343D;
+}
+
+body {
+    padding: 4rem 2rem;
+}
+
+main {
+    text-align: center;
+}
+
+h1 {
+    padding-bottom: 2rem;
+    font-weight: normal;
+}
+
+#logo {
+    margin: 2rem;
+}

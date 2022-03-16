@@ -1,0 +1,27 @@
+# IDE directories.
+.idea/
+.vscode/
+
+# Build artifacts.
+target/
+
+# Python virtual environment.
+venv/
+
+# The built example project.
+example/target/
+example/generated/
+example/themes/default/generated/
+
+# Binaries for programs and plugins.
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries built with `go test -c`.
+*.test
+
+# The output path for example builds.
+output-dir
