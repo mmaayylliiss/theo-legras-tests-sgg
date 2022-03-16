@@ -1,0 +1,11 @@
+image: ubuntu/lts
+packages:
+  - python3
+  - python3-venv
+  - python3-pip
+source:
+  - hg+https://hg.sr.ht/~obensonne/poole
+tasks:
+  - test: |
+      cd poole
+      make test

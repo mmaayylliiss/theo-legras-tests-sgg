@@ -1,0 +1,12 @@
+syntax: glob
+env/
+tests/actual
+tests/errors.diff
+*.pyc
+*~
+.project
+.pydevproject
+box
+SNAPSHOT*
+.settings
+.idea/

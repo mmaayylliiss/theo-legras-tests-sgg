@@ -1,0 +1,22 @@
+# temporary and build files
+*~
+*.pyc
+build/
+dist/
+env/
+bin
+
+# test files
+tests/actual
+tests/errors.diff
+
+# misc
+box/
+SNAPSHOT*
+
+# IDE files:
+.settings
+.project
+.pydevproject
+
+.hg/
